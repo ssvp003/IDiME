@@ -5,7 +5,7 @@ import os
 # フォルダーパス
 input_dir = "../src/IDiME for Meltype"
 output_dir = "../out"
-output_filename = "IDiME for Meltype.tsv"
+output_filename = "IDiME_for_Meltype.tsv"
 output_path = os.path.join(output_dir, output_filename)
 tsv_files = sorted(glob.glob(os.path.join(input_dir, "*.tsv")))
 
